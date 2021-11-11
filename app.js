@@ -25,7 +25,7 @@ const app = function(){
   }
 
   function loadJSON(){
-       const id='2PACX-1vTLPzDkE14eoELvZYsqHbeDjpQpiPzwwqKYAWmzu4DFQ8KHi8Z-JZIeei31BY1CXeGKWY8ekXYT7XK9';
+       const id='1r05ArCOx-vAW_SwVRo9L25b2jG_QmNPoXHPHffhQm-s';
         let urls = [];
         for(let x =1; x<3; x++){
           urls.push('https://spreadsheets.google.com/feeds/list/'+id+'/'+x+'/public/values?alt=json');
