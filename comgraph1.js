@@ -151,7 +151,7 @@ const app = function(){
          const id='1r05ArCOx-vAW_SwVRo9L25b2jG_QmNPoXHPHffhQm-s';
           let urls = [];
           for(let x =1; x<4; x++){
-            urls.push('https://spreadsheets.google.com/feeds/list/'+id+'/'+x+'/public/values?alt=json');
+            urls.push('https://sheets.googleapis.com/v4/spreadsheets/'+id+'/'+x+'/public/values?alt=json');
           }
           Promise.all(urls.map(url=>{
              return fetch(url)
